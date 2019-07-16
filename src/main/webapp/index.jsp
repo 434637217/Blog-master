@@ -47,7 +47,8 @@
 </script>
  <c:set var="ttime" value='<%=request.getAttribute("##")%>' />
   <%
- if(!MyData.isCreate){%>
+  String path = request.getRequestURI() + "?" + request.getQueryString();
+ if(!path.contains("index.jsp")){%>
 	  <script type=text/javascript>
 	  	window.location="${pageContext.request.contextPath }/blog/1";
 	  </script>

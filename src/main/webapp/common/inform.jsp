@@ -5,7 +5,7 @@
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="${pageContext.request.contextPath}/static/images/wjx.png" alt="HelloWorld">
           <p class="site-author-name" itemprop="name">Tanbo</p>
-          <p class="site-description motion-element" itemprop="description">From Sichuan</p>
+          <p class="site-description motion-element" itemprop="description">From Sichuan <br> Android开发工程师</p>
         </div>
         <nav class="site-state motion-element">
             <div class="site-state-item site-state-posts">
